@@ -29,6 +29,7 @@ func init() {
 
 	// 首页路由
 	beego.Router("/", &home.HomeController{}, "GET:Index")
+	beego.Router("/history", &home.HomeController{}, "GET:History")
 	beego.AutoRouter(&home.HomeController{})
 	beego.AutoRouter(&home.BookController{})
 
