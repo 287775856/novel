@@ -198,3 +198,10 @@ func (this *HomeController) Search() {
 
 	this.View("home/search.tpl")
 }
+func (this *HomeController) History() {
+	
+	this.Data["Title"] = "历史记录"
+	this.Data["Cates"] = services.CateService.GetAll()
+	this.View("home/history.tpl")
+	
+}
