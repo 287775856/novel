@@ -1,4 +1,4 @@
-module github.com/vckai/novel
+module github.com/287775856/novel
 
 go 1.12
 
