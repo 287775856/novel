@@ -17,7 +17,7 @@ package main
 import (
 	"github.com/astaxie/beego"
 
-	_ "github.com/vckai/novel/app"
+	_ "github.com/287775856/novel/app"
 )
 
 func main() {
